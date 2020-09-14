@@ -16,7 +16,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4123453081739520708
 Transform:
   m_ObjectHideFlags: 0
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minSpawnDelay: 1
   maxSpawnDelay: 3
-  attackerPrefab: {fileID: 0}
+  attackerPrefabArray: []
 --- !u!1 &4123453081933031707
 GameObject:
   m_ObjectHideFlags: 0
@@ -62,7 +62,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4123453081933031701
 Transform:
   m_ObjectHideFlags: 0
@@ -91,7 +91,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minSpawnDelay: 1
   maxSpawnDelay: 5
-  attackerPrefab: {fileID: 0}
+  attackerPrefabArray: []
 --- !u!1 &4123453082289869773
 GameObject:
   m_ObjectHideFlags: 0
@@ -108,7 +108,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4123453082289869775
 Transform:
   m_ObjectHideFlags: 0
@@ -137,7 +137,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minSpawnDelay: 1
   maxSpawnDelay: 3
-  attackerPrefab: {fileID: 0}
+  attackerPrefabArray:
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &4123453082488859647
 GameObject:
   m_ObjectHideFlags: 0
@@ -154,7 +156,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4123453082488859641
 Transform:
   m_ObjectHideFlags: 0
@@ -183,7 +185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minSpawnDelay: 1
   maxSpawnDelay: 5
-  attackerPrefab: {fileID: 0}
+  attackerPrefabArray: []
 --- !u!1 &4123453082990338845
 GameObject:
   m_ObjectHideFlags: 0
@@ -200,7 +202,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4123453082990338846
 Transform:
   m_ObjectHideFlags: 0
@@ -234,7 +236,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minSpawnDelay: 7
   maxSpawnDelay: 7
-  attackerPrefab: {fileID: 0}
+  attackerPrefabArray: []
 --- !u!1 &4123453083168009958
 GameObject:
   m_ObjectHideFlags: 0
@@ -251,7 +253,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4123453083168009952
 Transform:
   m_ObjectHideFlags: 0
@@ -280,4 +282,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minSpawnDelay: 1
   maxSpawnDelay: 3
-  attackerPrefab: {fileID: 0}
+  attackerPrefabArray: []
