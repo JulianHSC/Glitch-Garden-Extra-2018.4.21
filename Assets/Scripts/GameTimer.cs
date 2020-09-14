@@ -8,7 +8,7 @@ public class GameTimer : MonoBehaviour
 {
     [Tooltip("Our level timer: seconds")]
     [SerializeField] float levelTime = 10;
-
+    bool triggeredLevelFinished = false;
 
 
     // Start is called before the first frame update
@@ -20,13 +20,21 @@ public class GameTimer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(triggeredLevelFinished)
+        {
+            return;
+
+        }
+
         GetComponent<Slider>().value = Time.timeSinceLevelLoad / levelTime;
 
         bool timerFinished = (Time.timeSinceLevelLoad >= levelTime);
 
         if(timerFinished)
         {
-            Debug.Log("level timer expired");
+            //Debug.Log("level timer expired");
+            FindObjectOfType<LevelController>().LevelTimerFinished();
+            triggeredLevelFinished = true;
 
 
         }
