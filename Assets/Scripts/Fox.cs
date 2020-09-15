@@ -11,9 +11,8 @@ public class Fox : MonoBehaviour
         if (otherObject.GetComponent<Gravestone>())
         {
 
-            Debug.Log(otherObject);
             GetComponent<Animator>().SetTrigger("jumpTrigger");
-            Debug.Log(otherObject);
+            //Debug.Log(otherObject);
         }
 
 
