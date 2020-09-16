@@ -77,9 +77,11 @@
     <Compile Include="Assets\Scripts\LevelLoader.cs" />
     <Compile Include="Assets\Scripts\LivesDisplay.cs" />
     <Compile Include="Assets\Scripts\Lizard.cs" />
+    <Compile Include="Assets\Scripts\PlayerPrefsController.cs" />
     <Compile Include="Assets\Scripts\Projectile.cs" />
     <Compile Include="Assets\Scripts\Shooter.cs" />
     <Compile Include="Assets\Scripts\StarDisplay.cs" />
+    <Compile Include="Assets\TEST.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Public/Julian/A-Unity/Glitch-Garden-Extra/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
