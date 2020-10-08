@@ -45,7 +45,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minSpawnDelay: 1
   maxSpawnDelay: 3
-  attackerPrefabArray: []
+  attackerPrefabArray:
+  - {fileID: 0}
 --- !u!1 &4123453081933031707
 GameObject:
   m_ObjectHideFlags: 0
@@ -91,7 +92,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minSpawnDelay: 1
   maxSpawnDelay: 5
-  attackerPrefabArray: []
+  attackerPrefabArray:
+  - {fileID: 0}
 --- !u!1 &4123453082289869773
 GameObject:
   m_ObjectHideFlags: 0
@@ -185,7 +187,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minSpawnDelay: 1
   maxSpawnDelay: 5
-  attackerPrefabArray: []
+  attackerPrefabArray:
+  - {fileID: 0}
 --- !u!1 &4123453082990338845
 GameObject:
   m_ObjectHideFlags: 0
@@ -236,7 +239,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minSpawnDelay: 7
   maxSpawnDelay: 7
-  attackerPrefabArray: []
+  attackerPrefabArray:
+  - {fileID: 0}
 --- !u!1 &4123453083168009958
 GameObject:
   m_ObjectHideFlags: 0
@@ -282,4 +286,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minSpawnDelay: 1
   maxSpawnDelay: 3
-  attackerPrefabArray: []
+  attackerPrefabArray:
+  - {fileID: 0}

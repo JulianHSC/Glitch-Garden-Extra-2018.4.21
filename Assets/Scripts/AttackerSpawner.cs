@@ -30,6 +30,8 @@ public class AttackerSpawner : MonoBehaviour
     private void SpawnAttacker()
     {
         var attackerIndex = UnityEngine.Random.Range(0, attackerPrefabArray.Length);
+        Debug.Log("attackerIndex: " + attackerIndex);
+        Debug.Log("attackerPrefabArray.Length: " + attackerPrefabArray.Length);
         Spawn(attackerPrefabArray[attackerIndex]);
     }
 
