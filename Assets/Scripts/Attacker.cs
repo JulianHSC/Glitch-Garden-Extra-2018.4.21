@@ -11,6 +11,10 @@ public class Attacker : MonoBehaviour
 
     private void Awake()
     {
+        LevelController levelController = FindObjectOfType<LevelController>();
+
+
+        Debug.Log("levelController : " + levelController);
         FindObjectOfType<LevelController>().AttackerSpawned();
 
     }
@@ -18,6 +22,7 @@ public class Attacker : MonoBehaviour
     private void OnDestroy()
     {
         LevelController levelController = FindObjectOfType<LevelController>();
+        Debug.Log("levelController : " + levelController);
         if(levelController != null)
         {
             levelController.AttackerKilled();
