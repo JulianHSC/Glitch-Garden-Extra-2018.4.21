@@ -17,6 +17,8 @@ public class Attacker : MonoBehaviour
         Debug.Log("levelController : " + levelController);
         FindObjectOfType<LevelController>().AttackerSpawned();
 
+        Debug.Log("A meaningful message");
+
     }
 
     private void OnDestroy()
