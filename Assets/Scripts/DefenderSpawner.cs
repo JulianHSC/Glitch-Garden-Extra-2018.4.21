@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class DefenderSpawner : MonoBehaviour
 {
-    Defender defender;
+    [SerializeField] Defender defender;
     GameObject defenderParent;
     const string DEFENDER_PARENT_NAME = "Defender";
 
